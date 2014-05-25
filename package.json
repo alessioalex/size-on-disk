@@ -1,0 +1,25 @@
+{
+  "name": "size-on-disk",
+  "version": "0.1.0",
+  "description": "Wrapper over the [du](http://en.wikipedia.org/wiki/Du_(Unix)) command to get a file/folder's size on disk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "disk-size",
+    "size",
+    "folder"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url"  : "https://github.com/alessioalex/size-on-disk.git"
+  },
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  }
+}
